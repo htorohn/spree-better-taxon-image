@@ -1,4 +1,4 @@
-module YourApplication
+module SpreeBetterTaxonImage
     module Spree
       module TaxonImageDecorator
         module ClassMethods
@@ -20,4 +20,4 @@ module YourApplication
     end
   end
   
-  Spree::TaxonImage.prepend ::YourApplication::Spree::TaxonImageDecorator
+  Spree::TaxonImage.prepend ::SpreeBetterTaxonImage::Spree::TaxonImageDecorator
